@@ -10,6 +10,9 @@ Equipe : 8
 Membres du groupe :
 
 Membre 1 : 
+
 Membre 2 : 
+
 Membre 3 : Yao Dossavi
+
 Membre 4 : 
