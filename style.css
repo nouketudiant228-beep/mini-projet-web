@@ -1,0 +1,323 @@
+
+/*#Page de compétence 1 :*/
+*{
+    padding: 0;
+    
+}
+
+body{
+    margin: 0;
+    color: rgb(115, 115, 124);
+    font-family: 'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    box-sizing: border-box;
+    display: grid;
+}
+
+header, footer{
+    background-color: rgb(19, 13, 107);
+    padding: 20px;
+    margin: 0;
+    height: 60%;
+}
+
+.lib-title{
+    color: rgb(251, 251, 252);
+    font-size: 3em;
+    padding-left: 15px;
+}
+
+/*.libelle-title{
+    color: rgb(240, 233, 233);
+    text-align: left;
+    margin-left: 0;
+    font-weight: normal;
+    font-size: 35px;
+    padding-left: 0;
+}*/
+
+.titre-page{
+    color: rgb(251, 251, 252);
+    margin-bottom: 7%;
+    font-size: 4em;
+    word-spacing: 2px;
+    text-align: left;
+    padding: 15px;
+    display: block;
+    font-weight: bold;
+
+}
+
+.title-1, .title-2{
+    /*justify-content: left;*/
+    background-image: url(Images/img-dev.jpg);
+    display: grid;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(45px);
+    padding: 4%;
+    margin-left: 0;
+    font-weight: none;
+    backdrop-filter: blur(15px);
+    /*text-transform: uppercase;*/
+}
+
+.title-2{
+    background-image: url(Images/img-optimapp.jpg);
+}
+
+
+.corps-compo{
+    box-shadow: 1px 1px 1px 1px rgb(233, 227, 227) ;
+    margin-left: 10%;
+    margin-right: 20%;
+    text-align: justify;
+    background-color: rgb(248, 249, 250);
+    padding: 25px;
+}
+
+
+table{
+    font-weight: normal;
+    border-collapse: collapse;
+    border: 1px solid rgb(196, 196, 204);
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    
+}
+
+th{
+    border: 1px solid rgb(196, 196, 204);
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+td{
+    border: 1px solid rgb(197, 196, 204);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.sein-niv-1-1{
+    display: flex;
+    padding-top: 5px;
+}
+
+.sein-niv-1-2{
+    display: flex;
+    padding-top: 5px;
+}
+
+#img2-COEFF, #img3-SAE, #img4-RESS, #img5_initprog, #img6_devweb, #img7_anglais, #img8_archiordi{
+    height: 50%;
+    width: 100%;    
+    border-radius: 5px;
+    padding-bottom: 3%;
+    align-items: center;
+}
+
+#img1-AC{
+    margin-top: 5px;
+    height: 30%;
+    width: 40%;
+}
+
+
+.super-liste1{
+    font-size: 1em;
+    color: #585656;
+    /*border: 1px solid rgb(196, 197, 204);*/
+    text-align: justify;
+    border-radius: 10px;
+    width: 100%;
+    align-content: right;
+    padding: 5px;
+    padding-top: 10px;
+    margin-left: 7px;
+    margin-top: 0;
+    
+}
+
+.super-liste1 li {
+    padding-bottom: 20px;
+    padding-left: 10px;
+    color: rgb(115, 115, 124);
+    font-size: 1.1em;
+}
+
+
+.super-liste-2{
+    font-size: 1em;
+    color: #585656;
+    /*border: 1px solid rgb(196, 197, 204);*/
+    text-align: justify;
+    border-radius: 10px;
+    width: 100%;
+    align-content: right;
+    padding: 5px;
+    padding-top: 10px;
+    margin-left: 7px;
+    margin-top: 0;
+}
+
+.super-liste-2 li {
+    padding-bottom: 20px;
+    padding-left: 10px;
+    color: rgb(115, 115, 124);
+    font-size: 1em;
+}
+
+
+
+.im2-COEFF{
+    padding: 5%;
+}
+
+.table-ac{
+    font-weight: normal;
+    border-collapse: collapse;
+    border: 1px solid rgb(196, 196, 204);
+    border-radius: 10%;
+}
+
+thead, tbody{
+    border: 1px solid rgb(197, 196, 204);
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+.hash-tag{
+    display: flex;
+    font-style: oblique;
+    padding-right: 3%;
+    color: rgb(67, 57, 155);
+}
+
+.a-griser{
+    font-weight: bolder;
+}
+
+.ent-ress{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    font-size: 1.3em;
+
+}
+
+.apprentissages, .descriptif-ress{
+    border: 1px solid rgb(41, 43, 133);
+    margin-bottom: 3%;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.code-ress{
+    margin-right: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: rgb(59, 59, 59);
+    border: 1px solid rgb(165, 165, 172);
+    border-radius: 3px;
+    color: #fffdfd;
+
+}
+
+.name-ress{
+    color: rgb(48, 48, 204);
+    text-align: left;
+}
+
+.class-R101, .class-R102, .class-R110{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 3%;
+
+}
+
+/********* HIGH STYLE ****************/
+
+.titres{
+    color: rgb(212, 19, 19);
+    text-align: left;
+}
+
+.titre-2{
+    color: rgb(219, 11, 11);
+    text-align: left;
+}
+
+.titre-3{
+    color: rgb(212, 60, 60);
+    text-align: left;
+}
+
+/*.titres:hover, .titre-2:hover, .titre-3:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(107, 39, 39);
+} */
+
+.page-title{
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+.part-niv1, .part-eval, .part-SAE, .part-ress{
+    margin-bottom: 5%;
+    border: 1px solid rgb(196, 197, 204);
+    padding: 30px;
+    padding-top: 1px;
+    border-radius: 10px;
+}
+
+
+h1{
+    font-size: 1.7em;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+h3{
+    font-size: 1.3em;
+}
+
+h4{
+    font-size: 1.1em;
+}
+
+.lien-bottom{
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 5px;
+    color: rgb(19, 63, 207);
+    font-size: 1.3em;
+}
+
+.lien-bottom:hover{
+    color: rgb(129, 7, 7);
+    margin-left: 20%;
+    margin-top: 5px;
+    text-decoration: underline;
+    border: 1px solid blue;
+    background-color: blue;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.final-links{
+    display: flex;
+}
+
+
